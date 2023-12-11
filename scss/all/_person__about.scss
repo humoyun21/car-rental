@@ -1,0 +1,62 @@
+#person__about{
+    background: #F5F5F5;
+    display: flex;
+    padding: 100px 120px;
+    justify-content: center;
+    align-items: center;
+}
+.person__about--box{
+padding-left: 70px;
+justify-content: flex-end;
+align-items: center;
+gap: 70px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FFF;
+padding-bottom: 70px;
+padding-top: 70px;
+}
+.person__about--box--google{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.person__about--box--google >h1{
+    color: #4285F4;
+    font-size: 16px;
+    font-weight: 500;
+}
+.person__about--box>h2{
+    width: 320px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; 
+    margin-bottom: 62px;
+}
+.person__about--box>p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.person__about--box>button{
+    display: flex;
+padding: 18px 50px;
+align-items: flex-start;
+
+gap: 8px;
+border-radius: 100px;
+border: 1.5px solid #F9ED32 ;
+background: radial-gradient(100% 100% at 50.01% .03%, #F9ED32, #EE2A7B, #D22A8A, #8B2AB2, #1B2AF0, #002AFF);
+font-size: 18px;
+font-weight: 500;
+background: radial-gradient(230.93% 230.93% at 102.01% 2.03%, #F9ED32 0%, #EE2A7B 36%, #D22A8A 44%, #8B2AB2 60%, #1B2AF0 83%, #002AFF 88%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}

@@ -1,4 +1,148 @@
-footer{
-    width: 100%;
-    // codes
+.footer{
+    display: flex;
+}
+.footer__logo_text{
+    margin-top: 40px;
+}
+.footer__logo_text>p{
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px; 
+    width: 240px;
+}
+.footer_main_text{
+    margin-top: 64px;
+    margin-left: 65px;
+}
+.footer_main_text>h1{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer_main_text>p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.footer_catagories_text{
+    margin-top: 74px;
+    margin-left: 110px;
+}
+.footer_catagories_text>h2{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer_catagories_text>p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.footer_catagories_text>h3{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+.footer__company_text{
+    margin-top: 74px;
+    margin-left: 116px;
+}
+.footer__company_text>h4{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer__company_text>p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.footer__loction_text{
+    margin-top: 74px;
+    margin-left: 126px;
+}
+.footer__loction_text>h5{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer__loction_text>p{
+    color: #555;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.foooter_icons{
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
+.footer__finsh{
+    display: flex;
+    margin-bottom:40px ;
+}
+
+.conditions>h1{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    width: 158px;
+}
+.contact{
+    margin-left: 147px;
+    margin-top: 10px;
+}
+.contact>h2{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.contact>p{
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.hours{
+    margin-left: 49px;
+    margin-top: 10px;
+}
+.hours>h2{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hours>p{
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.socila{
+   margin-left: 52px;
+   margin-top: 10px; 
+}
+.socila>h3{
+    margin-bottom: 22px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.foooter_icons_finsh{
+    display: flex;
+    gap: 15px;
+}
+.foterfinshicon{
+    margin-left: 213px;
 }

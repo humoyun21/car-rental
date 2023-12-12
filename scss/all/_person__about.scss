@@ -58,5 +58,70 @@ background: radial-gradient(230.93% 230.93% at 102.01% 2.03%, #F9ED32 0%, #EE2A7
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.person{
+    border-radius: 16px;
+    background: #FFF;
+    width: 420px;
+    height: 333px;
+    padding-top: 24px;
+    margin-top: 50px;
+    margin-left: 40px   ;
+}
+.person1{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+    margin-left: 24px;
+    
+}
+.person1>div>h3{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.person1>div>h4{
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+.person>p{
+    width: 372px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-bottom: 50px;
+    margin-left: 24px;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 24px;
+}
+.star>h5{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.star__icons{
+    display: flex;
+    gap: 6px;
+}
+.person__swiper{
+    display: flex;
+    gap: 70px ;
+    display: flex;
+
+}
+.person_abput_swi{
+   display: flex;
+   gap: 20px;
+   width: 730px;
+    height: 479px;
+    background: #299764;
+    
 
 }

@@ -1,0 +1,58 @@
+.car_rental__box{
+    width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1.5px solid #E5E7EA;
+    background: #FFF;
+    display: flex;
+    padding-left: 32px;
+    padding-top: 40px;
+    justify-content: space-around;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.car_rental__box>img{
+ background-image: url(../../assets/images/Ellipse125.png);
+    background-repeat: no-repeat; 
+    background-position: 80% 0%
+}
+.car__rental__text>h1{
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.car__rental__text>p{
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    width: 590px;
+    margin-bottom: 75px;
+    
+}
+.car_rental_box_wrapper{
+    display: flex;
+    gap: 10px;
+   
+}
+.car_rental__box1{
+    width: 200px;
+    height: 160px;
+    border-radius: 16px;
+    background: #F5F5F5;
+    padding-top: 20px;
+    
+}
+.car_rental__box1>p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px; 
+    width: 185px;
+    padding-left: 15px;
+    margin-top: 29px;   
+}
+.car_rental__box1>img{
+    padding-left: 150px;
+}

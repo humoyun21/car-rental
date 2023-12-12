@@ -1,0 +1,67 @@
+#logos__car{
+    margin-top: 160px;
+}
+.car_logos>h1{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+.car_logo_img{
+    display: flex;
+    gap: 66px;
+    margin-bottom: 160px;
+}
+.car_logo_box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.car_logo_box >h2{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.car_logo_box >p{
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 684px;
+}
+.car_box{
+    border-radius: 20px;
+    background: #F5F5F5;
+    width: 590px;
+    display: flex;
+    align-items: start;
+    padding-top: 40px;
+    padding-left: 32px;
+    justify-content: space-around;
+}
+
+.car_text > h3{
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 288px;
+}
+.car_text>p{
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    width: 354px;
+    margin-bottom: 40px;
+}
+.car_box_wrapper{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
